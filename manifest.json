@@ -1,0 +1,14 @@
+{
+  "name": "now-playing-in-apple-music",
+  "version": "0.1.0",
+  "description": "Now ▶️ 🍏 🎶",
+  "manifest_version": 2,
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://beta.music.apple.com/*"],
+      "css": ["styles.css"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
