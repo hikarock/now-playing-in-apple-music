@@ -1,7 +1,7 @@
 {
   "name": "now-playing-in-apple-music",
   "version": "0.1.0",
-  "description": "Now ▶️ 🍏 🎶",
+  "description": "⌚️▶️🍏🎵",
   "manifest_version": 2,
   "permissions": ["activeTab"],
   "content_scripts": [
