@@ -25,9 +25,7 @@ setInterval(() => {
   const artistNameWithAlbumTitle = artistNameWithAlbumTitleEl.innerText
   const artistName = artistNameWithAlbumTitle.split(separator)[0].trim()
   const albumTitle = artistNameWithAlbumTitle.split(separator)[1].trim()
-  const artworkImageUrl = artworkImageEl.getAttribute('srcset').split(' ') [2]
-
-  console.log(`${artworkImageUrl}`)
+  const artworkImageUrl = artworkImageEl.getAttribute('srcset').split(' ')[2]
 
   const currentPayload = {
     attachments: [
